@@ -30,7 +30,7 @@ export const profileTemplate = `
             
             <div class="info__container info__container_underline">
                {{> Title object tag="h2" class="info__subtitle" text="Логин"}}
-               {{>Input object type ="text" id="login-input" class="info__input" placeholder="some-login"}}
+               {{>Input object type ="text" id="login-input" class="info__input" placeholder="Введите логин"}}
                <p class ="form__error signin__error signin__error_login form__error_profile" id="error-login-input">Validation-message</p>
             </div>
             
