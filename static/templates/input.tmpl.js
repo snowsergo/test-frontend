@@ -1,0 +1,1 @@
+ export const inputTemplate =`<input type="{{type}}" id="{{id}}" class="{{class}}" placeholder="{{placeholder}}"/>`

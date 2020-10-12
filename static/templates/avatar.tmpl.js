@@ -1,0 +1,1 @@
+export const avatarTemplate =`<img class="{{class}}" src="{{src}}">`

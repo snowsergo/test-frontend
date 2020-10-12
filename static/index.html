@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Сергей Ступников">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Главная</title>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+
+      <div class="header__block">
+        <h1 class="header__title">Ваш личный кабинет</h1>
+        <p class="email">some-email@yandex.com</p>
+        <button class="header__button">Выйти</button>
+      </div>
+
+      <nav class="header__nav">
+        <a class="header__link" href="./index.html">Профиль</a>
+        <a class="header__link" href="../lines/lines.html">Линии</a>
+        <a class="header__link" href="../calls/calls.html">Звонки</a>
+        <a class="header__link" href="../bills/bills.html">Счета</a>  
+      </nav>
+
+      
+    </header>
+    <main class="main">
+      <div class="main__info">
+        <img class="avatar" src="../images/no_avatar.jpg">
+        <div class="main__text">
+          <h2 class="name">User__login</h2>
+          <p class="profile__text">Ваш баланс: <span class="profile__value"></span></p>
+          <p class="profile__text">Вы зарегистрированы: <span class="date"></span></p>
+          <a class="main__link" href="../profile/profile.html">редактировать</a>
+        </div>
+        
+      </div>
+    </main>
+
+    <footer class="footer"></footer>
+  </div>
+
+
+  <script src="./main.js" type="module"></script>
+</body>
+
+</html>

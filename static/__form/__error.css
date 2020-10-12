@@ -1,0 +1,33 @@
+.form__error {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    color: transparent;
+    position: absolute; 
+    top:31px;
+    left:0px;
+    
+  }
+  .form__error_profile{
+    left:auto;
+    right:0px;
+    top:38px
+  }
+  
+  .form__error_visible{
+    color: #ff2f2f;
+  }
+  .form__error_visible-blue{
+    color: #023bf5;
+  }
+  
+  .form__error_total {
+    margin-top: 60px; 
+    align-self: center;
+  
+  }
+  

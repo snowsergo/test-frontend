@@ -1,0 +1,1 @@
+export const buttonTemplate =`<button {{disabled}} class="{{class}}" type="{{type}}">{{text}}</button>`

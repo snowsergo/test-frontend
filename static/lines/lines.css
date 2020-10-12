@@ -1,0 +1,46 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../__info/info.css);
+@import url(../__form/__button.css);
+@import url(../__form/__error.css);
+@import url(../main.css);
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.table{
+    margin-top:40px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+th {
+    border: 2px solid grey;
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.pages{
+    align-self: center;
+    margin-top:40px;
+    
+}
+.page-button{
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    background-color: transparent;
+}
+.page-number{
+    align-self: center;
+    margin-top:14px;
+}
